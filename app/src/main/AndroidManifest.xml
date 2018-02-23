@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yilei.ownerdraw">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.WatchActivity" />
+        <activity android:name=".activity.RulerActivity" />
+        <activity android:name=".activity.WriteActivity" />
+        <activity android:name=".activity.RectActivity" />
+        <activity android:name=".activity.ShaderActivity" />
+        <activity android:name=".activity.GradientActivity" />
+        <activity android:name=".activity.FiveChessActivity" />
+        <activity android:name=".activity.LinghtDiskActivity" />
+        <activity android:name=".activity.PorterDuffXferActivity" />
+        <activity android:name=".activity.ScratchTicketActivity" />
+        <activity android:name=".activity.ViewGroupActivity" />
+        <activity android:name=".activity.CornerActivity" />
+        <activity android:name=".activity.FlowActivity" />
+        <activity android:name=".activity.ScrollActivity" />
+        <activity android:name=".activity.BaseScrollerActivity" />
+        <activity android:name=".activity.MultiLaucherActivity" />
+        <activity android:name=".activity.MTextViewActivity"></activity>
+    </application>
+
+</manifest>

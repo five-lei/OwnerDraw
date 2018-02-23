@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="RotateBoll">
+        <attr name="boll_y" format="integer"/>
+        <attr name="boll_radius" format="integer"/>
+        <attr name="boll_color" format="color"/>
+    </declare-styleable>
+    
+    <!--自定义的textView-->
+    <declare-styleable name="MTextView">
+        <attr name="texts" format="string"/>
+        <attr name="text_colors" format="dimension"/>
+        <attr name="text_sizes" format="dimension"/>
+    </declare-styleable>
+
+    <!--带阴影的textView-->
+    <declare-styleable name="ShaderView">
+        <attr name="text" format="string"/>
+        <attr name="text_color" format="color"/>
+        <attr name="text_size" format="integer"/>
+        <attr name="shader_color" format="color"/>
+    </declare-styleable>
+    
+    <!--自定义容器-->
+    <declare-styleable name="CornerLayout">
+        <attr name="layout_position" format="enum">
+            <enum name="left_top" value="0"/>
+            <enum name="right_top" value="1"/>
+            <enum name="left_bottom" value="2"/>
+            <enum name="right_bottom" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>

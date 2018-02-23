@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.yilei.ownerdraw.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.yilei.ownerdraw.RotateBoll
+                android:id="@+id/my_boll"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:boll_color="@color/colorAccent"
+                app:boll_radius="50"
+                app:boll_y="50" />
+
+            <com.yilei.ownerdraw.view.CoordinateView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <com.yilei.ownerdraw.ClipView
+                android:id="@+id/clip_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="gone" />
+
+            <Button
+                android:id="@+id/btn_watch"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorPrimary"
+                android:text="手表"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_ruler"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="直尺"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_write"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="手写触摸"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_rect"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="手写画矩形"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_text"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="TextView"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_shader"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="带阴影TextView"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_gradient"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="颜色渐变"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_chess"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="五子棋"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_light_disk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="光盘颜色渐变"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_porter_duff"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="位图运算"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_scratch_ticket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="刮刮乐"
+                android:textColor="@android:color/white" />
+
+            <Button
+                android:id="@+id/btn_view_group"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:text="自定义容器"
+                android:textColor="@android:color/white" />
+
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>
